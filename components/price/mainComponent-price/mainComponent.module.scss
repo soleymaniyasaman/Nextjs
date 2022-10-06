@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "XYekan";
+    src: url("/fonts/X_Yekan/X_Yekan.ttf");
+    font-style: normal;
+  }
+@font-face {
+    font-family: "BYekan";
+    src: url("/fonts/B_Yekan/B_Yekan.ttf");
+    font-style: normal;
+  }
+@font-face {
+  font-family: "MyriadArabic";
+  src: url("/fonts/Myriad_Arabic/MyriadArabic-Regular.woff");
+}
+$main_color: #404040;
+$bg_backgroundSection:#505050;
+.price_body{
+    height: 1864px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "XYekan","BYekan","MyriadArabic";
+}
+
+.mt_20{
+    margin-top: -20px;
+}
+.bg_SectionCard{
+  border-radius: 17px;
+  margin: 0 auto;
+  width: 98%;
+}

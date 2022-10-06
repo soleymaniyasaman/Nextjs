@@ -1,0 +1,415 @@
+.cardSectionPriceMargin_green {
+    color: #27A77E;
+}
+.cardSectionPriceMargin_red {
+    color: #C44450;
+}
+.cardSectionPriceMargin_gray {
+    color: #A7A7A7
+}
+//body colors
+.price_body_MiBrand{
+    background-color: #FF6700;
+}
+.price_body_AllBrand{
+    // background-color: #404040;
+    background-color: #171717;
+
+}
+.price_body_AppleBrand{
+    background-color: #6d6d6d;
+}
+.price_body_SamsungBrand{
+    background-color: #004cab;
+}
+.price_body_HuaweiBrand{
+    background-color: #b11530;
+}
+.price_body_NokiaBrand{
+    background-color: #0e54a4;
+}
+.price_body_HonorBrand{
+    background-color: #0a85a9;
+}
+// marquee
+.priceComponent_marqueeWrapper_MiBrand{
+    background-color: #FFFFFF40;
+}
+.priceComponent_marqueeWrapper_SamsungBrand{
+    background-color: #FFFFFF40;
+}
+.priceComponent_marqueeWrapper_HuaweiBrand{
+    background-color: #FFFFFF40;
+}
+.priceComponent_marqueeWrapper_NokiaBrand{
+    background-color: #FFFFFF40;
+}
+.priceComponent_marqueeWrapper_HonorBrand{
+    background-color: #FFFFFF40;
+}
+.priceComponent_marqueeWrapper_AppleBrand{
+    background-color: #FFFFFF40;
+}
+.priceComponent_marqueeWrapper_AllBrand{
+    background: #282828;
+    ;}
+.priceComponent_marqueeBox_color_AllBrand{
+    color: #FFFFFF;
+}
+.priceComponent_marqueeBox_color_MiBrand{
+    color: #242424;
+}
+.priceComponent_marqueeBox_color_SamsungBrand{
+    color: #242424;
+}
+.priceComponent_marqueeBox_color_HuaweiBrand{
+    color: #242424;
+}
+.priceComponent_marqueeBox_color_NokiaBrand{
+    color: #242424;
+}
+.priceComponent_marqueeBox_color_HonorBrand{
+    color: #242424;
+}
+.priceComponent_marqueeBox_color_AppleBrand{
+    color: #242424;
+}
+.PriceComponent_marqueepPrice_AllBrand{
+    color: #FFFFFF;
+}
+.PriceComponent_marqueepPrice_MiBrand{
+    color: #515151;
+}
+.PriceComponent_marqueepPrice_SamsungBrand{
+    color: #515151;
+}
+.PriceComponent_marqueepPrice_HuaweiBrand{
+    color: #515151;
+}
+.PriceComponent_marqueepPrice_NokiaBrand{
+    color: #515151;
+}
+.PriceComponent_marqueepPrice_HonorBrand{
+    color: #515151;
+}
+.PriceComponent_marqueepPrice_AppleBrand{
+    color: #515151;
+}
+.PriceComponent_marqueepPrice_PersianName_AllBrand{
+    color: #FFFFFF;
+}
+//Price MainChart
+$checkApple:#B0B0B0;
+$checkSamsung:#317BFD;
+$checkHUAWEI: #EF2310;
+$checkXIAOMI: #EF6910;
+$checkNOKIA:#00A554;
+$checkHONOR:#FFB500;
+$bg_backgroundSection:#282828;
+$bg_boxChart: #353535;
+
+
+.priceMainChartCheckboxColor_AppleBrand {
+    background-color: $checkApple!important;
+}
+.priceMainChartCheckboxColor_SamsungBrand {
+    background-color: $checkSamsung!important;
+}
+.priceMainChartCheckboxColor_HuaweiBrand {
+    background-color: $checkHUAWEI!important;
+}
+.priceMainChartCheckboxColor_HonorBrand {
+    background-color: $checkHONOR!important;
+}
+.priceMainChartCheckboxColor_MiBrand {
+    background-color: $checkXIAOMI!important;
+}
+.priceMainChartCheckboxColor_NokiaBrand {
+    background-color: $checkNOKIA!important;
+}
+.bg_SectionCard_AllBrand{
+    background-color: $bg_backgroundSection;
+}
+.bg_SectionCard_MiBrand{
+    background-color: #FFFFFF30;
+}
+.bg_SectionCard_SamsungBrand{
+    background-color: #FFFFFF30;
+}
+.bg_SectionCard_HuaweiBrand{
+    background-color: #FFFFFF30;
+}
+.bg_SectionCard_NokiaBrand{
+    background-color: #FFFFFF30;
+}
+.bg_SectionCard_HonorBrand{
+    background-color: #FFFFFF30;
+}
+.bg_SectionCard_AppleBrand{
+    background-color: #FFFFFF30;
+}
+.bg_SectionCard_AppleBrand{
+    background-color: #FFFFFF30;
+}
+.priceComponent_searchbox_MiBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_searchbox_SamsungBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_searchbox_HuaweiBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_searchbox_NokiaBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_searchbox_HonorBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_searchbox_AppleBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_searchbox_AllBrand{
+background-color: #dcdcdc25;
+}
+.priceComponent_mainChart_AllBrand{
+    background-color: $bg_boxChart;
+
+}
+.priceComponent_mainChart_MiBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_mainChart_SamsungBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_mainChart_HuaweiBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_mainChart_NokiaBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_mainChart_HonorBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_mainChart_AppleBrand{
+    background-color: #FFFFFF20;
+}
+.priceComponent_news_AllBrand{
+    background-color: $bg_boxChart;
+
+}
+.priceComponent_news_MiBrand{
+    background-color: #FFFFFF20;
+
+}
+.priceComponent_news_SamsungBrand{
+    background-color: #FFFFFF20;
+
+}
+.priceComponent_news_HuaweiBrand{
+    background-color: #FFFFFF20;
+
+}
+.priceComponent_news_NokiaBrand{
+    background-color: #FFFFFF20;
+
+}
+.priceComponent_news_HonorBrand{
+    background-color: #FFFFFF20;
+
+}
+.priceComponent_news_AppleBrand{
+    background-color: #FFFFFF20;
+
+}
+.priceComponent_IconSearchBox_AllBrand{
+    color: grey;
+
+}
+.priceComponent_IconSearchBox_MiBrand{
+    color: white;
+}
+.priceComponent_IconSearchBox_SamsungBrand{
+    color: white;
+}
+.priceComponent_IconSearchBox_HuaweiBrand{
+    color: white;
+}
+.priceComponent_IconSearchBox_NokiaBrand{
+    color: white;
+}
+.priceComponent_IconSearchBox_HonorBrand{
+    color: white;
+}
+.priceComponent_IconSearchBox_AppleBrand{
+    color: white;
+}
+
+
+
+.PriceComponent_marqueepPrice_PersianName_MiBrand{
+    color: #515151;
+
+}
+.PriceComponent_marqueepPrice_PersianName_SamsungBrand{
+    color: #515151;
+
+}
+.PriceComponent_marqueepPrice_PersianName_HuaweiBrand{
+    color: #515151;
+
+}
+.PriceComponent_marqueepPrice_PersianName_NokiaBrand{
+    color: #515151;
+
+}
+.PriceComponent_marqueepPrice_PersianName_HonorBrand{
+    color: #515151;
+
+}
+.PriceComponent_marqueepPrice_PersianName_AppleBrand{
+    color: #515151;
+
+}
+.PriceComponent_marqueepPrice_EnglishName_AllBrand{
+    color: #999999;
+}
+.PriceComponent_marqueepPrice_EnglishName_MiBrand{
+    color: #51515150;
+
+}
+.PriceComponent_marqueepPrice_EnglishName_SamsungBrand{
+    color: #51515150;
+
+}
+.PriceComponent_marqueepPrice_EnglishName_HuaweiBrand{
+    color: #51515150;
+
+}
+.PriceComponent_marqueepPrice_EnglishName_NokiaBrand{
+    color: #51515150;
+
+}
+.PriceComponent_marqueepPrice_EnglishName_HonorBrand{
+    color: #51515150;
+
+}
+.PriceComponent_marqueepPrice_EnglishName_AppleBrand{
+    color: #51515150;
+
+}
+//table
+.priceComponent_tableContainer_color_AllBrand{
+    background-color: #282828;
+    opacity: 1;
+}
+.priceComponent_tableContainer_color_MiBrand{
+    background-color: #FFFFFF35;
+
+}
+.priceComponent_tableContainer_color_SamsungBrand{
+    background-color: #FFFFFF35;
+
+}
+.priceComponent_tableContainer_color_HuaweiBrand{
+    background-color: #FFFFFF35;
+
+}
+.priceComponent_tableContainer_color_NokiaBrand{
+    background-color: #FFFFFF35;
+
+}
+.priceComponent_tableContainer_color_HonorBrand{
+    background-color: #FFFFFF35;
+
+}
+.priceComponent_tableContainer_color_AppleBrand{
+    background-color: #FFFFFF35;
+
+}
+.priceComponent_tableHeader_color_AllBrand{
+    background-color: #1F1F1F;
+    color: #ffffff;
+    opacity: 0.4;
+    border-bottom: solid 2px #1F1F1F10;
+
+
+}
+.priceComponent_tableHeader_color_MiBrand{
+    color: #363636;
+    opacity: 0.7;
+    border-bottom: solid 2px #FF670010;
+}
+.priceComponent_tableHeader_color_SamsungBrand{
+    color: #363636;
+    opacity: 0.7;
+    border-bottom: solid 2px #FF670010;
+}
+.priceComponent_tableHeader_color_HuaweiBrand{
+    color: #363636;
+    opacity: 0.7;
+    border-bottom: solid 2px #FF670010;
+}
+.priceComponent_tableHeader_color_NokiaBrand{
+    color: #363636;
+    opacity: 0.7;
+    border-bottom: solid 2px #FF670010;
+}
+.priceComponent_tableHeader_color_HonorBrand{
+    color: #363636;
+    opacity: 0.7;
+    border-bottom: solid 2px #FF670010;
+}
+.priceComponent_tableHeader_color_AppleBrand{
+    color: #363636;
+    opacity: 0.7;
+    border-bottom: solid 2px #FF670010;
+}
+.priceComponent_tableBody_color_AllBrand{
+    color: #FFFFFF70;
+
+}
+.PriceComponent_tableNameEnglish_color_AllBrand{
+    color: #A1ADCA30;
+}
+.PriceComponent_tableNameEnglish_color_MiBrand{
+    color: #FFFFFF40;
+}
+.PriceComponent_tableNameEnglish_color_SamsungBrand{
+    color: #FFFFFF40;
+}
+.PriceComponent_tableNameEnglish_color_HuaweiBrand{
+    color: #FFFFFF40;
+}
+.PriceComponent_tableNameEnglish_color_NokiaBrand{
+    color: #FFFFFF40;
+}
+.PriceComponent_tableNameEnglish_color_HonorBrand{
+    color: #FFFFFF40;
+}
+.PriceComponent_tableNameEnglish_color_AppleBrand{
+    color: #FFFFFF40;
+}
+.priceComponent_tableLeftBrand_MiBrand{
+    // background-color: #FFC49B;
+    background-color: #ffffff90;
+}
+.priceComponent_tableLeftBrand_SamsungBrand{
+    // background-color: #FFC49B;
+    background-color: #ffffff90;
+}
+.priceComponent_tableLeftBrand_HuaweiBrand{
+    // background-color: #FFC49B;
+    background-color: #ffffff90;
+}
+.priceComponent_tableLeftBrand_NokiaBrand{
+    // background-color: #FFC49B;
+    background-color: #ffffff90;
+}
+.priceComponent_tableLeftBrand_HonorBrand{
+    // background-color: #FFC49B;
+    background-color: #ffffff90;
+}
+.priceComponent_tableLeftBrand_AppleBrand{
+    background-color: #ffffff90;
+}

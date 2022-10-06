@@ -1,0 +1,120 @@
+.priceComponent_listBrands_nav{
+  // width: 60%;
+  margin-left: 5%;
+  margin-top: 26px;
+  margin-bottom: 14px;
+
+
+
+  .priceComponent_listBrands_container{
+    // display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    .priceComponent_listBrandsImg{
+      // max-width: 50vw;
+      height: auto; 
+      
+    }
+    p{
+      color: #61C6ED;
+      // font-size: 20px;
+      line-height: 8px;
+    }
+    a{
+      cursor: pointer;
+    }
+  }
+}
+.priceComponent_listBrands_shape{
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  opacity: 5%;
+  left: 0;
+  background-color: #ffffff;
+  margin-top: -14px;
+
+}
+.img_size {
+  max-width: 7vw;
+}
+.icon_all_brands {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+// ::-webkit-scrollbar {
+//   display: none;
+//   }
+// @mixin overflow_s {
+//   &::-webkit-scrollbar{
+//     display: none!important;
+//     width: 0!important;
+//   }
+//   -ms-overflow-style: none;
+
+//   // scrollbar-width: none;
+
+// }
+@media screen and (max-width: 1000px) {
+  .priceComponent_listBrands_container p{
+    font-size: 1.8vw;
+    font-weight: 400;
+    margin: auto 0;
+    width: 150%;
+    padding-top: 1.3vw;
+
+  }
+}
+@media screen and (max-width: 1000px) {
+  .img_size {
+    max-width: 10vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .img_size {
+    max-width: 11vw;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .priceComponent_listBrands_container p{
+    font-size: 20px;
+    padding-top: .8vw;
+    margin: auto 0;
+    width: 150%;
+
+  }}
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .overflow_ba{
+      overflow-x: auto;
+    //   overflow-y: hidden;
+    //   width: 100%;
+    // height: calc(100% + 20px);
+      // width: 0px;
+      // overflow-y: none;
+      // -webkit-overflow-scrolling: touch;
+    }
+    .overflow_ba::-webkit-scrollbar{
+      display: none;
+    }
+      // @mixin overflow_scrollbar {
+      //   &::-webkit-scrollbar{
+      //     display: none;
+      //     width: 0px;
+      //     height: 0px;
+      //     -ms-overflow-style: none;
+      //   }
+        
+
+        // scrollbar-width: none;
+    .img_size{
+      max-width: 25vw;
+    }
+    
+    
+    // .scroll_wrapper{
+    //   overflow: hidden;
+    // }
+  }

@@ -1,0 +1,66 @@
+.green {
+    color: #27A77E;
+}
+.red {
+    color: #C44450;
+}
+.gray {
+    color: #A7A7A7
+}
+.priceComponent_cardSection_tallCard_MainContainer {
+    width: 126px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: #353535;
+    border-radius: 17px;
+    margin-left: 6px;
+    text-decoration: none;
+    p, div, a {
+        padding: 0;
+        margin: 0;
+    }
+    .img {
+        height: 100px;
+        align-self: center;
+        margin-top: 26px;
+    }
+    .pFaTitle {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: BYekan;
+        margin-top: 10px;
+        margin-right: 14px;
+        letter-spacing: -1px;
+    }
+    .pEnTitle {
+        color: #999999;
+        font-family: "Myriad Arabic Regular", sans-serif;
+        font-size: 10px;
+        margin-top: -4px;
+        margin-right: 14px;
+        letter-spacing: -1px;
+    }
+    .divChartContainer {
+        width: 111px;
+        height: 34px;
+        margin-top: 12px;
+        // margin-bottom: 15px;
+    }
+    .pPriceMargin {
+        font-family: BYekan;
+        font-size: 11px;
+        letter-spacing: -1px;
+        margin-right: 14px;
+    }
+    .pPrice {
+        color: #FFFFFF;
+        font-family: BYekan;
+        font-size: 18px;
+        margin-top: -5px;
+        margin-right: 14px;
+        letter-spacing: -4px;
+    }
+}

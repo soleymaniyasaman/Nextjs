@@ -1,0 +1,155 @@
+
+$bg_search:#dcdcdc25;
+$bg_textsearch: #9C9A9A;
+$live: #F04545;
+$white: #FFFF;
+$bg_text:#171717;
+$border_color:#000000;
+.priceComponent_search .priceComponent_search_form_control_feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    margin-left: 21px;
+    text-align: center;
+    pointer-events: none;
+}
+
+@mixin placeholder-color ($color, $focus) {
+    &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: $color;
+      &:focus{
+        &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color: $focus;
+        }
+      }
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color: $color;
+     opacity:  1;
+     &:focus{
+       &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color: $focus;
+          opacity:  1;
+       }
+     }
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: $color;
+     opacity:  1;
+     &:focus{
+       &::-moz-placeholder { /* Mozilla Firefox 19+ */
+          color: $focus;
+          opacity:  1;
+       }
+     }
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: $color;
+     &:focus{
+       &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color: $focus;
+       }
+     }
+   }
+  }
+  .input_text{  
+  @include placeholder-color(#FFFFFF, #FFFFFF);
+  }
+
+
+.priceComponent_search .form_control {
+    padding-left: 2.375rem;
+}
+
+.priceComponent_search_d_ltr {
+    direction: ltr;
+}
+
+.priceComponent_search_d_rtl {
+    direction: rtl;
+}
+
+.priceComponent_search_size_searchbox{
+    width: 30vw;
+    height: 44px;
+    color: $white;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    outline: 0;
+    
+}
+.priceComponent_search_inside_searchbox{
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    font-family: "BYekan";
+    font-size: large;
+    direction: rtl;
+    
+}
+.priceComponent_search_live_icon{
+    box-sizing: border-box;
+    height: 25px;
+    width: 81px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: $live;
+    color: $white;
+    margin-left: 5px;
+    margin-right: 2vw;
+}
+.priceComponent_search_live_text{
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 7px;
+    text-align: center;
+    color: $bg_text;
+    height: 13px;
+    width: 39px;
+}
+.priceComponent_search_live_Ellipse{
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: $bg_text;
+    border: 0 solid $border_color;
+    margin: 3px 0px 3px 3px;
+    // animation: glow 2s infinite alternate linear;
+}
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 10px rgba(255,255,255,.8),
+                   0 0 20px rgba(255,255,255,.8),
+                //    0 0 30px rgba(255,255,255,.8),
+                   0 0 40px rgba(240, 69, 69,.8),
+                   0 0 50px rgba(240, 69, 69,.8),
+                //    0 0 60px rgba(240, 69, 69,.5),
+                //    0 0 70px rgba(240, 69, 69,.5),
+                //    0 0 90px rgba(240, 69, 69,.5),
+                //    0 0 100px rgba(240, 69, 69,.5);
+    }
+    100% {
+      box-shadow: 0 0 2px rgba(255,255,255,.8),
+                   0 0 8px rgba(255,255,255,.8),
+                //    0 0 10px rgba(255,255,255,.8),
+                   0 0 20px rgba(240, 69, 69,.5),
+                //    0 0 30px rgba(240, 69, 69,.5),
+                //    0 0 40px rgba(240, 69, 69,.5),
+                //    0 0 50px rgba(240, 69, 69,.5),
+                //    0 0 100px rgba(240, 69, 69,.5);
+    }
+  }
+.priceComponent_margin_right{
+  margin-right: 4vw;
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .priceComponent_search_size_searchbox{
+    width: 60vw;
+  }
+  .priceComponent_search_live_icon{
+    display: none!important;
+  }
+}

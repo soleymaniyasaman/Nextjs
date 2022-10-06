@@ -1,0 +1,195 @@
+.priceComponent_marqueeWrapper{
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    border-radius: 12px;
+    z-index: -10000;
+}
+.priceComponent_marqueeWrapper .priceComponent_marqueeContainer{
+    overflow:hidden;
+}
+.marquee_inner span{
+    float:left;
+    width:50%;
+}
+.priceComponent_marqueeWrapper .marquee_block{
+    --total-marquee-items: 12;
+    height: 63px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+}
+.marquee_inner{
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marqueeLeft 25s linear infinite;
+
+}
+.priceComponent_marqueeBox{
+    display: flex;
+    line-height: 3px;
+    margin-top: 8px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    transition: all 0.2s ease-out;
+            img{
+                margin-left: 14px;
+            }
+            .greenTag{
+                height: 0;
+                width: 0;
+                // margin-left: 7px;
+                // border-left: 8px solid transparent;
+                // border-right: 8px solid transparent;
+                // border-bottom: 12px solid #68D362;
+            }
+            .redTag{
+                height: 0;
+                width: 0;
+                margin-left: 7px;
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+                border-top: 12px solid #E00000;
+            }
+            .grayTag{
+                background-color: #9B9B9B;
+                height: 11px;
+                width: 11px;
+                margin-left: 7px;
+
+            }
+            .PriceComponent_marqueeEnglishName{
+                letter-spacing: -1px;
+                font-family: "Myriad Arabic Regular", sans-serif;
+                margin-top: 2px;
+            }
+            span{
+                height: 8px;
+                width: 33px;
+                float: right;
+                font-size: 10px;
+                text-align: center;
+                margin: 0;
+            }
+            .PriceComponent_marqueePersianName{
+                margin: 0;
+
+            }
+            .shape{
+                position: absolute;
+                height: 38px;
+                width: 1px;
+                opacity: 0.3;
+                background-color: #ffffff;
+
+            }
+            .pPriceMargin{
+                font-weight: lighter;
+                margin: 7px 0 0 0;
+                font-family: BYekan;
+                letter-spacing: -1px;
+            }
+            .pPrice{
+                font-family: BYekan;
+                margin-top: 9px;
+                text-align: center;
+                letter-spacing: -3px;
+            }
+}
+@keyframes marqueeLeft{
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+@media screen and (min-width: 1300px) {
+    .priceComponent_marqueeWrapper .marquee_block{
+        width: calc(120px * (var(--total-marquee-items)));
+        height: 63px;
+
+    }
+    .priceComponent_marqueeBox{
+        width: 120px;
+
+    }
+    .priceComponent_marqueeBox{
+        .PriceComponent_marqueeEnglishName{
+            font-size: 10px;
+
+        }
+        .PriceComponent_marqueePersianName{
+            font-size: 14px;
+
+        }
+        .pPrice{
+            font-size: 17px;
+
+        }
+        .greenTag{
+            margin-left: 7px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 12px solid #68D362;
+        }
+        .pPriceMargin{
+            font-size: 12px;
+
+        }
+        .shape{
+            margin-left: 116px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1299px) {
+    .priceComponent_marqueeWrapper .marquee_block{
+        width: calc(100px * (var(--total-marquee-items)));
+        height: 54px;
+
+    }
+    .priceComponent_marqueeBox{
+        width: 100px;
+
+    }
+    .priceComponent_marqueeBox{
+        .PriceComponent_marqueeEnglishName{
+            font-size: 8px;
+        }
+        .PriceComponent_marqueePersianName{
+            font-size: .7rem;
+        }
+        .pPrice{
+            font-size:14px;
+
+        }
+        .greenTag{
+            margin-left: 5px;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 10px solid #68D362;
+        }
+        .pPriceMargin{
+            font-size: 10px;
+        }
+        .shape{
+            margin-left: 100px;
+        }
+    }
+}
+// @media (min-width: 600px){
+//     .display_marquee{
+//         display: none;
+//     }
+// }
+@media only screen and (max-width: 600px) {
+    .display_marquee{
+        display: none;
+    }
+}
